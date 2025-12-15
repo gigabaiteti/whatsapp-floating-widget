@@ -1,8 +1,11 @@
 # WhatsApp Floating Widget
 
 🔗 Este README também está disponível em: [Português](README.pt.md) | [English](README.en.md) | [Español](README.es.md)
+
 🔗 Este README también está disponible en:  [Português](README.pt.md) | [English](README.en.md) | [Español](README.es.md)
+
 🔗 This README is also available in: [Português](README.pt.md) | [English](README.en.md) | [Español](README.es.md)
+
 
 This is a lightweight and simple floating WhatsApp button widget, developed with pure HTML, CSS, and native JavaScript. It allows your website visitors to contact you directly via WhatsApp with just one click.
 
@@ -57,3 +60,4 @@ Contributions are welcome! If you have suggestions or improvements:
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
