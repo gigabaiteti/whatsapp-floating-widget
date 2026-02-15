@@ -248,7 +248,7 @@
 
     <!-- Hero -->
     <section class="container hero">
-        <h1>Adicione o WhatsApp ao seu site<br>em segundos.</h1>
+        <h1>Adicione o WhatsApp ao seu site<br>em segundos, grátis</h1>
         <p>Uma biblioteca leve, moderna e sem dependências para aumentar suas conversões conectando seus visitantes diretamente ao WhatsApp.</p>
         
         <div class="hero-stats">
@@ -292,19 +292,23 @@
             
             <h3>1. Inclua os arquivos</h3>
             <br>
-            <div class="code-block">
-&lt;!-- No head do seu site --&gt;
-&lt;link rel="stylesheet" href="widget.css"&gt;
-            </div>
+            <p class="lead">Antes de de fwchar o <code>HEAD</code> do seu site, adicione:</p><br>
+<pre class="code-block">
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/whatsapp-floating-widget@latest/widget.css"&gt;
+</pre>
 
-            <div class="code-block">
-&lt;!-- Antes de fechar o body --&gt;
-&lt;script src="widget.js" 
-    data-phone="553340427011" 
+<p class="lead">Antes de fechar o <code>BODY</code> do seu site, adicione:</p><br>
+<pre class="code-block">
+&lt;script src="https://cdn.jsdelivr.net/npm/whatsapp-floating-widget@latest/widget.js" 
+    data-phone="553340420000" 
     data-message="Olá, gostaria de saber mais!" 
     data-position="right"&gt;
 &lt;/script&gt;
-            </div>
+</pre>
+
+            <h3>2. Personalize</h3><br>
+            <p class="lead">Troque os valores dos campos <strong>data-phone=""</strong>, <strong>data-message=""</strong> e <strong>data-position=""</strong> para os valores desejados. O número do telefone não pode conter parêntesis, traços ou espaços e deve iniciar com código internacional do país (ex. 55 para Brasil) e a posição pode ser <strong>right</strong> para posicionar o botão à direita ou <strong>left</strong> para a esquerda.</p>
+            <br>
 
             <p style="text-align: center; margin-top: 1rem;">
                 <small>* Veja o arquivo README.md no repositório para todas as opções de configuração.</small>
@@ -315,7 +319,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>Distribuído sob a licença MIT. Desenvolvido com ❤️ por <a href="https://www.gigabaite.com.br" target="_blank">Gigabaite Tecnologia</a>.</p>
+            <p>Desenvolvido por <a href="https://www.gigabaite.com.br" target="_blank">Gigabaite Tecnologia</a> e distribuído sob a licença MIT</p>
         </div>
     </footer>
 
